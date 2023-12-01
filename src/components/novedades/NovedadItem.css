@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Arsenal:wght@700&family=Libre+Franklin:wght@600&family=Nunito:wght@700&family=Raleway:ital,wght@1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
+.novedades{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100vh;
+  flex-flow: row wrap;
+  row-gap: 30px;
+}
+
+.imagenNovedades {
+  display: block;
+  margin: auto;
+  height: 100px;
+  text-align: center;
+  width: 200px;
+  border-radius: 10px;
+  
+}
+  
+
+
+h3,
+p {
+  text-align: center;
+  color: cornsilk;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  color: darkgoldenrod;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+}

@@ -1,0 +1,36 @@
+.nav {
+  background-color: #121b22;
+  height: 90px;
+}
+
+.navMenu {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.navMenu li {
+  padding-top: 23px;
+}
+
+.navMenu li a {
+  text-decoration: none;
+  color: white;
+  font-family: "arsenal", serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.navMenu li a:hover {
+  text-decoration: underline;
+  color: goldenrod;
+  font-weight: bold;
+}
+
+.navMenu li a:active {
+  text-decoration: none;
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 22px;
+  background-color: #121b22;
+}

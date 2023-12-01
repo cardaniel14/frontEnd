@@ -1,0 +1,17 @@
+.projects {
+  background-color: #212b38;
+  height: 500px;
+  padding: 10px;
+}
+.textDescription > p {
+  color: white;
+  line-height: 1.5;
+  width: 250px;
+  text-align: justify;
+}
+
+.projectSeagull {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

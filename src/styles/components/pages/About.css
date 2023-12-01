@@ -1,0 +1,33 @@
+main {
+  background-color: #212b38;
+  height: 500px;
+}
+
+img {
+  width: 350px;
+  border-radius: 10%;
+  margin-top: 30px;
+}
+
+.bioDani {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: #212b38;
+  color: white;
+}
+
+.textAbout {
+  width: 400px;
+  height: 300px;
+}
+
+.textAbout > p {
+  line-height: 1.5;
+}
+
+.spacer {
+  height: 50px;
+  background-color: #212b38;
+}
